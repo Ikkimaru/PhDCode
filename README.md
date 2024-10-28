@@ -1,6 +1,20 @@
 # Speech Emotion Recognizer
 
-This project implements a speech emotion recognition system using machine learning models. The system is capable of classifying emotions from audio recordings based on features extracted from the speech signals.
+This project implements a speech emotion recognition system using machine learning models, designed to classify emotions from audio recordings based on features extracted from speech signals.
+
+<img src="./images/Baseline.png" width="300">
+
+The research began with a series of baseline tests that established foundational performance metrics for the system. Following this, an enhancement strategy was employed, wherein sound samples were augmented by adjusting the pitch to improve classification accuracy.
+
+<img src="./images/Data-Augment.png" width="300">
+
+To evaluate the system's performance further, a confusion matrix was generated. This analysis highlighted how different emotions were affected during classification, providing insights into potential areas for improvement.
+
+<img src="./images/Confusion-Matrix.png" width="300">
+
+Lastly, this research proposes a utility value as an alternative metric to traditional performance measures, specifically tailored to account for the variability and convolution of emotions.
+
+<img src="./images/Utility-Value.png" width="600">
 
 ## Features
 
